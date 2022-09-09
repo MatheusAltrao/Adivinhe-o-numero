@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivinhar o numero</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Em que número estou pensando? <span> (de 0 a 10) </span></h1>
+      <div class="content">
+        <h1>Insira o seu numero</h1>
+        <form>
+          <input id="input" type="number" />
+        </form>
+        <button onclick="randomNumber()">Verificar</button>
+      </div>
+    </div>
+    <div id="flag" class="flag">
+      <h1 id="correct"></h1>
+      <h1 id="result-number"></h1>
+      <h1 id="result"></h1>
+    </div>
+
+    <div class="center">
+      <h1 class="developer">
+        Desenvolvido por
+        <a target="_blank" href="https://matheusaltrao.github.io/portfolio/"
+          >Matheus Altrão</a
+        >
+      </h1>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

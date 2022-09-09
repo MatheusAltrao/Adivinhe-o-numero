@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+
+  background-image: linear-gradient(45deg, #00b8a5, #7c17b4);
+
+  overflow: hidden;
+}
+
+.container h1 {
+  text-align: center;
+}
+span {
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  margin: 2rem 0;
+  padding: 1rem 3rem;
+
+  border-radius: 4px;
+  border: 2px solid #fff;
+  background-color: #7c17b4;
+  color: #fff;
+
+  font-weight: 700;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+  background-color: #fff;
+  border: 2px solid #7c17b4;
+  color: #7c17b4;
+}
+
+#flag {
+  font-size: 12px;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #00b8a5;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+#flag.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.center {
+}
+
+.developer {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.developer a {
+  color: #00b8a5;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease;
+}
+.developer a:hover {
+  transform: translateY(-8px);
+}
